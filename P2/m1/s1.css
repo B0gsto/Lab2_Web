@@ -44,13 +44,10 @@ ul li {
 body {
     background-color: green;
     position: relative;
-}
-
-body::after {
-    content: '';
     display: block;
     height: 50px;
 }
+
 
 
 footer {
