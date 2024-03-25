@@ -1,0 +1,20 @@
+#txtchild {
+    text-align: center;
+    width: 200px;
+    vertical-align: middle;
+}
+
+#imgchild {
+    content: url("images.jpg");
+    width: 200px;
+    object-fit: contain;
+    transform-origin: 50% 50%;
+}
+
+.parentDiv {
+    border: 5px solid #000000;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
